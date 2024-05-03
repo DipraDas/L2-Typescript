@@ -24,8 +24,9 @@ let friends: string[] = ['rahel', 'monica']
 let elegibleRollList: number[] = [1, 3];
 elegibleRollList.push(5);
 
-let ageName: [number, string, boolean] = [50, 'Mr.X', true];
 
+// Tuple --> array --> order --> type of values
+let ageName: [number, string, boolean] = [50, 'Mr.X', true];
 ageName[0] = 68;
 
 
